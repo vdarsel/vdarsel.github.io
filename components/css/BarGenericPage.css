@@ -1,0 +1,46 @@
+#table-generic {
+    color: white;
+}
+
+.borderless td, .borderless th {
+    border: none
+}
+
+.input_suggestion{
+    max-width: 30%;
+}
+
+#val-thumb {
+    position: relative;
+    left: 20px;
+}
+
+#oth-thumb-left {
+    position: relative;
+    right: 15vw
+}
+
+#oth-thumb-right {
+    position: relative;
+    left: 15vw
+}
+
+.red-price {
+    color: red;
+    background-color: #042b29;
+}
+
+.boxed {
+    border: solid 1px;
+    background-color: #042b29;
+}
+
+#fav {
+    position: relative;
+    left: 5vw;
+}
+
+#SubmitSuggestion{
+    margin: 0% 0.5em;
+    padding: 0.3em 1.2em;
+}
