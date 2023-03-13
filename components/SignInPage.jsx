@@ -36,7 +36,7 @@ export default function SignInPage() {
                 <h2>New?</h2>
                 <form action="/home" onSubmit={handleOnClick}>
                     <p>
-                        <label>Email address</label><br />
+                        <label>Username</label><br />
                         <input type="text" name="first_name" onChange={(e) => ChangeUserName(e.target.value)} required />
                     </p>
                     <p>

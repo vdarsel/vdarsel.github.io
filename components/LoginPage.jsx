@@ -57,7 +57,7 @@ export default function LoginPage() {
                 <form action="/home" id="signup" onSubmit={handleLogin}>
                     <p>
                         <label>
-                            Email address{' '}<br />
+                            Username{' '}<br />
                             <input type="text" name="first_name" onChange={(e) => ChangeUserName(e.target.value)} required />
                         </label>
                     </p>
