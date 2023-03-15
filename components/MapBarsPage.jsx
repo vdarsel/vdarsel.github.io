@@ -4,13 +4,10 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import { NavBarMobile, NavBarComputer } from './NavBar';
-import { MapContainer, TileLayer, Marker, CircleMarker, SVGOverlay, Tooltip, useMap } from 'react-leaflet';
+import { MapContainer, TileLayer, CircleMarker, Tooltip, useMap } from 'react-leaflet';
 import './css/MapBarsPage.css'
-import MarkerClusterGroup from "react-leaflet-markercluster";
 import { barNames, barPosition, barIds, barCheapestPrice } from './Data'
 import { useAuth } from '../utils/authentification';
-import { Icon1Circle } from 'react-bootstrap-icons';
-import { Icon } from 'leaflet';
 
 export default function MapBarsPage() {
     const context = useAuth()
